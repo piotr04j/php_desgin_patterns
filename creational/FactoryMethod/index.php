@@ -2,8 +2,8 @@
 
 use creational\FactoryMethod\Creator;
 
-include('./Creator.php.php');
+include('Creator.php');
 
-$factory = new Creator(2);
+$factory = new Creator(1);
 
 echo $factory->getProduct()->getName();

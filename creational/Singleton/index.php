@@ -1,6 +1,6 @@
 <?php
 
-include('./Singleton.php');
+include('Singleton.php');
 
 use creational\Singleton\Singleton;
 

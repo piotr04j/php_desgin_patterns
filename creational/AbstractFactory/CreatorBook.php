@@ -1,10 +1,13 @@
 <?php
 
 
-use creational\AbstractFactory\BookENG;
-use creational\AbstractFactory\BookFR;
-use creational\AbstractFactory\BookPL;
-use creational\AbstractFactory\Product;
+namespace creational\AbstractFactory;
+
+include('Book.php');
+include('BookFR.php');
+include('BookENG.php');
+include('BookPL.php');
+include('Product.php');
 
 class CreatorBook extends Product
 {

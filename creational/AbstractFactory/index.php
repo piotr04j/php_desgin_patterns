@@ -1,5 +1,8 @@
 <?php
 
+use creational\AbstractFactory\CreatorBook;
+
+include('CreatorBook.php');
 
 $bookFactory= new CreatorBook();
 $polishBook = $bookFactory->createProduct(1, "some title");

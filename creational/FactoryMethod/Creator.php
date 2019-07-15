@@ -3,6 +3,9 @@
 
 namespace creational\FactoryMethod;
 
+include ('ProductSource.php');
+include('ProductTwo.php');
+include('ProductOne.php');
 
 class Creator
 {

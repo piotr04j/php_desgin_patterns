@@ -2,7 +2,6 @@
 
 namespace creational\AbstractFactory;
 
-
 abstract class Product
 {
     const PL = 1;
