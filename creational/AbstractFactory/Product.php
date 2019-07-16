@@ -4,10 +4,9 @@ namespace creational\AbstractFactory;
 
 abstract class Product
 {
-    const PL = 1;
-    const ENG = 2;
-    const FR = 3;
+    const BOOK = Book;
+    const AUDIOBOOK = Audibook;
 
     abstract public function getDescription();
-    abstract public function createProduct($type, $title);
+    abstract public function createProduct($format, $language, $title);
 }

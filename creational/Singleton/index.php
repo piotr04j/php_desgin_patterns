@@ -1,8 +1,9 @@
 <?php
 
+use creational\Singleton\Singleton;
+
 include('Singleton.php');
 
-use creational\Singleton\Singleton;
 
 $instance = Singleton::getInstance();
 $instance->setProperty('name','Piotr');
