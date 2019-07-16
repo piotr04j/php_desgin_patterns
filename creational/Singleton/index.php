@@ -11,5 +11,5 @@ unset($instance);
 $instanceTwo = Singleton::getInstance();
 
 echo "Singleton result: " . $instanceTwo->getProperty('name');
-echo "\r\n";
+
 
