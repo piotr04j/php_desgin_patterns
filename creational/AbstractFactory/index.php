@@ -1,11 +1,11 @@
 <?php
 
-use creational\AbstractFactory\CreatorBook;
+use creational\AbstractFactory\Factory;
 
+include_once('ProductCreator.php');
+include_once('Factory.php');
 
-include_once('CreatorBook.php');
-
-$bookFactory= new CreatorBook();
-$polishBook = $bookFactory->createProduct(1, 'PL', "some title");
+$factory= new Factory();
+$polishBook = $factory->getProduct(2, 1, 'Dobry tytuł');
 
 echo $polishBook->getTitle();

@@ -2,11 +2,11 @@
 
 namespace creational\AbstractFactory;
 
-abstract class Product
+abstract class ProductCreator
 {
     const PL = 1;
     const ENG = 2;
 
     abstract public function getDescription();
-    abstract public function createProduct($language, $title);
+    abstract static public function createProduct($language, $title);
 }
