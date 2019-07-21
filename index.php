@@ -9,3 +9,5 @@ echo '<br />';
 include('./creational/Prototype/index.php');
 echo '<br />';
 include('./structural/Composite/index.php');
+echo '<br />';
+include('./structural/Decorator/index.php');
