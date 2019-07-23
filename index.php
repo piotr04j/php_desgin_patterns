@@ -13,3 +13,5 @@ echo '<br />';
 include('./structural/Decorator/index.php');
 echo '<br />';
 include('./structural/Facade/index.php');
+echo '<br />';
+include('./behavioral/Interpreter/index.php');
