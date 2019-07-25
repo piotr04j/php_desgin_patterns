@@ -4,7 +4,7 @@
 namespace behavioral\Strategy;
 
 
-abstract class Mark
+abstract class Marker
 {
     protected $test;
 

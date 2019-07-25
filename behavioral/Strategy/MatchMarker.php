@@ -4,7 +4,7 @@
 namespace behavioral\Strategy;
 
 
-class MatchMark extends Mark
+class MatchMarker extends Marker
 {
     public function mark(string $response): bool
     {

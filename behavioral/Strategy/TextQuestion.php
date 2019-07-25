@@ -4,7 +4,10 @@
 namespace behavioral\Strategy;
 
 
-class TextQuestion
+class TextQuestion extends Question
 {
+    public function askQuestion(){
+        return $this->question;
+    }
 
 }
