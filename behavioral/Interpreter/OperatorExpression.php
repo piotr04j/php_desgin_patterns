@@ -19,7 +19,7 @@ abstract class OperatorExpression extends Expression
         $this->r_op->interpreter($context);
         $result_l = $context->lookup($this->l_op);
         $result_r = $context->lookup($this->r_op);
-        $this->doInterpet($context, $result_l, $result_r);
+        $this->doInterpret($context, $result_l, $result_r);
 
     }
 
