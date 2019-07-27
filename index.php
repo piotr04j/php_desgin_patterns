@@ -23,3 +23,5 @@ echo '<br />';
 include('./behavioral/Visitor/index.php');
 echo '<br />';
 include('./behavioral/Command/index.php');
+echo '<br />';
+include('./behavioral/NullObject/index.php');
