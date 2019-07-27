@@ -4,7 +4,8 @@ namespace behavioral\Observe;
 
 interface Observable
 {
-    public function attach(Page $page);
-    public function detach(Page $page);
+    public function attach(Observer $page);
+    public function detach(Observer $page);
     public function notify();
+    public function getNews();
 }

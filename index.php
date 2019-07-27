@@ -17,3 +17,5 @@ echo '<br />';
 include('./behavioral/Interpreter/index.php');
 echo '<br />';
 include('./behavioral/Strategy/index.php');
+echo '<br />';
+include('./behavioral/Observer/index.php');

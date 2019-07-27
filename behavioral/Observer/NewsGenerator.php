@@ -2,30 +2,47 @@
 
 
 use behavioral\Observe\Observable;
-use behavioral\Observe\Page;
+use behavioral\Observe\Observer;
 
 class NewsGenerator implements Observable
 {
     private $observers = [];
     private $news = [];
 
-    public function attach(Page $page)
+    public function attach(Observer $page)
     {
         array_push($this->observers, $page);
     }
 
-    //TODO check this implementation
-    public function detach(Page $page)
+    public function detach(Observer $page)
+    {
+        $index = $this->getObserver($page->getUrl());
+        unset($this->observers[$index]);
+    }
+
+    private function getObserver(string $id)
     {
         for($i = 0; $i < count($this->observers); $i++ ){
-            if($this->observers[i]->getUrl() ===  $page->getUrl()){
-                return i;
+            if($this->observers[$i]->getUrl() === $id){
+                return $i;
             }
         }
     }
 
     public function notify()
     {
-        // TODO: Implement notify() method.
+        foreach($this->observers as $obs){
+            $obs->update($this);
+        }
     }
+
+    public function addNews(string $news){
+        array_push($this->news, $news);
+    }
+
+    public function getNews(){
+        return $this->news[rand(0,count($this->news)-1)];
+    }
+
+
 }
