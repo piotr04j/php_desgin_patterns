@@ -1,7 +1,9 @@
 <?php
 
+namespace behavioral\Visitor;
 
-class Operation
+
+abstract class Operation
 {
-
+    abstract public function accept(Visitor $visitorOne, Visitor $visitorTwo);
 }

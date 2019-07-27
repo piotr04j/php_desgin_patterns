@@ -1,7 +1,13 @@
 <?php
 
+namespace behavioral\Visitor;
 
-class Addition
+
+class Addition extends Operation
 {
 
+    public function accept(Visitor $visitorOne, Visitor $visitorTwo)
+    {
+        return $visitorOne->visit() + $visitorTwo->visit();
+    }
 }

@@ -1,7 +1,8 @@
 <?php
 
+namespace behavioral\Visitor;
 
-class Visitor
+abstract class Visitor
 {
-
+    abstract public function visit();
 }
