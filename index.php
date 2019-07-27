@@ -21,3 +21,5 @@ echo '<br />';
 include('./behavioral/Observer/index.php');
 echo '<br />';
 include('./behavioral/Visitor/index.php');
+echo '<br />';
+include('./behavioral/Command/index.php');
