@@ -2,7 +2,6 @@
 
 namespace behavioral\Command;
 
-
 class Kid extends User
 {
     public function execute()

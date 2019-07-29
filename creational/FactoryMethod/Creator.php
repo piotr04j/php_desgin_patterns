@@ -3,10 +3,6 @@
 
 namespace creational\FactoryMethod;
 
-include ('ProductSource.php');
-include('ProductTwo.php');
-include('ProductOne.php');
-
 class Creator
 {
     const PRODUCT_ONE = 1;
@@ -28,4 +24,3 @@ class Creator
         }
     }
 }
-

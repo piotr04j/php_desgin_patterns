@@ -2,7 +2,6 @@
 
 namespace behavioral\Strategy;
 
-
 abstract class Question
 {
     protected $marker;
@@ -14,7 +13,8 @@ abstract class Question
         $this->marker = $marker;
     }
 
-    public function mark(string $response){
+    public function mark(string $response)
+    {
         return $this->marker->mark($response);
     }
 }

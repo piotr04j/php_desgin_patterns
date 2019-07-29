@@ -1,6 +1,6 @@
 <?php
 
-namespace behavioral\Observe;
+namespace behavioral\Observer;
 
 interface Observable
 {

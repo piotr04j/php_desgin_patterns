@@ -6,16 +6,6 @@ use behavioral\Interpreter\InterpreterContext;
 use behavioral\Interpreter\LiteralExpression;
 use behavioral\Interpreter\VariableExpression;
 
-include_once('Expression.php');
-include_once('OperatorExpression.php');
-include_once('BooleanOrExpression.php');
-include_once('BooleanAndExpression.php');
-include_once('EqualExpression.php');
-include_once('InterpreterContext.php');
-include_once('LiteralExpression.php');
-include_once('VariableExpression.php');
-
-
 $context = new InterpreterContext();
 $myVar = new VariableExpression('input', 'seven');
 $myVar->interpreter($context);
@@ -32,7 +22,7 @@ $statement = new BooleanOrExpression(
 foreach (['four', '16', '4'] as $val) {
     $input->setValue($val);
     $statement->interpreter($context);
-    if ($context->lookup($statement)){
+    if ($context->lookup($statement)) {
         echo 'For ' . $val . ' it is true. ';
     } else {
         echo 'For ' . $val . ' it is false. ';

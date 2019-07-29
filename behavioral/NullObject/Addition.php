@@ -1,5 +1,6 @@
 <?php
 
+namespace behavioral\NullObject;
 
 class Addition
 {
@@ -8,7 +9,7 @@ class Addition
 
     public function calculateSum()
     {
-        foreach ($this->numbers as $number){
+        foreach ($this->numbers as $number) {
             $this->carry += $number->getValue();
         }
         return $this->carry;

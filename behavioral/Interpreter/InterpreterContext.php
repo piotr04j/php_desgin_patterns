@@ -2,12 +2,11 @@
 
 namespace behavioral\Interpreter;
 
-
 class InterpreterContext
 {
     private $expressionStore = [];
 
-    public function replace (Expression $exp, $value)
+    public function replace(Expression $exp, $value)
     {
         $this->expressionStore[$exp->getKey()] = $value;
     }

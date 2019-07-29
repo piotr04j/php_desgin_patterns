@@ -2,7 +2,6 @@
 
 namespace behavioral\Interpreter;
 
-
 class EqualExpression extends OperatorExpression
 {
     protected function doInterpret(

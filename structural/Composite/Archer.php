@@ -3,7 +3,6 @@
 
 namespace structural\Composite;
 
-
 class Archer extends Unit
 {
 

@@ -1,8 +1,7 @@
 <?php
 
 
-namespace behavioral\Observe;
-
+namespace behavioral\Observer;
 
 class PageUS extends Observer
 {

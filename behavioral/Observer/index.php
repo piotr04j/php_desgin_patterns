@@ -1,14 +1,8 @@
 <?php
 
-
-use behavioral\Observe\PageEn;
-use behavioral\Observe\PageUS;
-
-include_once('Observable.php');
-include_once('Observer.php');
-include_once('NewsGenerator.php');
-include_once('PageEn.php');
-include_once('PageUS.php');
+use behavioral\Observer\PageEn;
+use behavioral\Observer\PageUS;
+use behavioral\Observer\NewsGenerator;
 
 $newMaker = new NewsGenerator();
 $newMaker->addNews('The greater news ever!');

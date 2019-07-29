@@ -1,8 +1,6 @@
 <?php
 
-
-namespace behavioral\Observe;
-
+namespace behavioral\Observer;
 
 class PageEn extends Observer
 {

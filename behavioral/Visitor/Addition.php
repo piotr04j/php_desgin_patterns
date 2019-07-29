@@ -2,7 +2,6 @@
 
 namespace behavioral\Visitor;
 
-
 class Addition extends Operation
 {
 

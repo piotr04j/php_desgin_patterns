@@ -2,7 +2,6 @@
 
 namespace creational\FactoryMethod;
 
-
 abstract class ProductSource
 {
     protected $name;
@@ -13,5 +12,4 @@ abstract class ProductSource
     }
 
     abstract public function getName(): string;
-
 }

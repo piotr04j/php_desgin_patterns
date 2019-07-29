@@ -1,5 +1,6 @@
 <?php
 
+namespace behavioral\NullObject;
 
 class ValuableObject extends AppropriateObject
 {

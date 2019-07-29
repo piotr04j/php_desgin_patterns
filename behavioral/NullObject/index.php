@@ -1,10 +1,8 @@
 <?php
 
-include_once('AppropriateObject.php');
-include_once('Addition.php');
-include_once('NullObject.php');
-include_once('ValuableObject.php');
-
+use behavioral\NullObject\Addition;
+use behavioral\NullObject\NullObject;
+use behavioral\NullObject\ValuableObject;
 
 $calculation = new Addition();
 $null = new NullObject();

@@ -12,5 +12,4 @@ abstract class Book
     }
 
     abstract public function getTitle();
-
 }

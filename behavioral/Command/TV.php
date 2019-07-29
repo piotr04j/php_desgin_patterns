@@ -2,7 +2,6 @@
 
 namespace behavioral\Command;
 
-
 class TV
 {
     public function getCartoons()

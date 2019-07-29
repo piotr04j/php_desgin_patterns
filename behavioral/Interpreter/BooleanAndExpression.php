@@ -2,7 +2,6 @@
 
 namespace behavioral\Interpreter;
 
-
 class BooleanAndExpression extends OperatorExpression
 {
     protected function doInterpret(

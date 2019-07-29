@@ -1,8 +1,6 @@
 <?php
 
-
-namespace behavioral\Observe;
-
+namespace behavioral\Observer;
 
 abstract class Observer
 {
@@ -14,9 +12,6 @@ abstract class Observer
         $this->url = $url;
     }
 
-    /**
-     * @return string
-     */
     public function getUrl(): string
     {
         return $this->url;

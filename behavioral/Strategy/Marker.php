@@ -3,7 +3,6 @@
 
 namespace behavioral\Strategy;
 
-
 abstract class Marker
 {
     protected $test;

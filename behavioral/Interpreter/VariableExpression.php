@@ -2,13 +2,12 @@
 
 namespace behavioral\Interpreter;
 
-
 class VariableExpression extends Expression
 {
     private $name;
     private $val;
 
-    public function __construct($name, $val = null )
+    public function __construct($name, $val = null)
     {
         $this->name = $name;
         $this->val = $val;
@@ -22,7 +21,8 @@ class VariableExpression extends Expression
         }
     }
 
-    public function setValue($value){
+    public function setValue($value)
+    {
         $this->val = $value;
     }
 
