@@ -3,7 +3,6 @@
 
 namespace creational\AbstractFactory;
 
-
 abstract class Audiobook
 {
     protected $title;

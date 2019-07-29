@@ -3,7 +3,6 @@
 
 namespace structural\Decorator;
 
-
 abstract class UnitDecorator extends Unit
 {
     protected $unit;
@@ -12,5 +11,4 @@ abstract class UnitDecorator extends Unit
     {
         $this->unit = $unit;
     }
-
 }

@@ -3,7 +3,6 @@
 
 namespace structural\Composite;
 
-
 class Warrior extends Unit
 {
 

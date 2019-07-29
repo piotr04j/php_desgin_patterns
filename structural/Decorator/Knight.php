@@ -3,7 +3,6 @@
 
 namespace structural\Decorator;
 
-
 class Knight extends Unit
 {
     private $attackValue = 8;

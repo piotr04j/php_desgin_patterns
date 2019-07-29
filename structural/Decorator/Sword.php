@@ -3,7 +3,6 @@
 
 namespace structural\Decorator;
 
-
 class Sword extends UnitDecorator
 {
     private $attackValue = 3;

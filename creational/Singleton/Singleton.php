@@ -13,7 +13,7 @@ class Singleton
 
     public static function getInstance()
     {
-        if(empty(self::$instance)){
+        if (empty(self::$instance)) {
             self::$instance = new Singleton();
         }
         return self::$instance;

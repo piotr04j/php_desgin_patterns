@@ -2,7 +2,6 @@
 
 namespace creational\FactoryMethod;
 
-
 class ProductOne extends ProductSource
 {
     public function getName(): string
@@ -10,4 +9,3 @@ class ProductOne extends ProductSource
         return $this->name . " - from product one";
     }
 }
-

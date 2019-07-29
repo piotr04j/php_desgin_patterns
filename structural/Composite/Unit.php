@@ -2,10 +2,10 @@
 
 namespace structural\Composite;
 
-
 abstract class Unit
 {
-    public function getComposite(){
+    public function getComposite()
+    {
         return null;
     }
 

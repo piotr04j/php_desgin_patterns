@@ -3,7 +3,6 @@
 
 namespace structural\Facade;
 
-
 class Subsystem
 {
     public function foo()

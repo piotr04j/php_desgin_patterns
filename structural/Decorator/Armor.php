@@ -3,7 +3,6 @@
 
 namespace structural\Decorator;
 
-
 class Armor extends UnitDecorator
 {
     private $attackValue = -5;

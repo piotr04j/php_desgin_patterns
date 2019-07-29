@@ -14,7 +14,7 @@ class BookCreator extends ProductCreator
     }
     public static function createProduct($language, $title)
     {
-        switch ($language){
+        switch ($language) {
             case self::PL:
                 return new BookPL($title);
             default:

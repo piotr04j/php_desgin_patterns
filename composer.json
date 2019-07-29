@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "creational\\": "creational/",
+      "behavioral\\": "behavioral/",
+      "structural\\": "structural/"
+    }
+  },
+  "require": {
+    "squizlabs/php_codesniffer": "^3.4"
+  }
+}

@@ -2,8 +2,7 @@
 
 namespace creational\Prototype;
 
-
-class SecondObject extends  DefaultObject
+class SecondObject extends DefaultObject
 {
     public function getName(): string
     {
